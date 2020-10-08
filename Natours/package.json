@@ -1,0 +1,14 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andre Cintra",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "start": "yarn live-server && node-sass sass/main.scss css/style.css -w"
+  }
+}
